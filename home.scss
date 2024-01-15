@@ -1,0 +1,445 @@
+.mega-menu{
+    a{
+     color:#000
+    }
+}
+.logo{
+    width:180px;
+}
+ .icon-btn{
+    color:#fff
+ }
+
+.icon{
+   background:rgb(71, 197, 8);
+   color:#fff
+}
+
+
+/* LINKS*/
+
+.links{
+    display:flex;
+    justify-content:end;
+    a{
+     font-weight: bolder;
+    }
+    @media(max-width:1000px){
+        display:flex;
+        justify-content:start;
+        margin-left:30px;
+    }
+  
+}
+
+/*SECTION PRESENTATION*/
+
+.header-presentation{
+    background-image:radial-gradient(rgba(0,0,0,0.9),rgba(112, 112, 114,0.9)) , url(images/plan.jpeg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100vh;
+.header-presentation-content{
+  display:flex;
+  flex-direction:column;
+  height:100vh;
+  color:#fff;
+  justify-content: center;
+    h2{
+        font-weight: bolder;
+        text-transform: uppercase;
+        @media(max-width:700px){
+            font-size:20px;
+        }
+    }
+
+    a{
+      text-decoration: none;
+      color:#fff;
+      border:1px solid #fff;
+      padding:15px 20px 15px;
+      width:250px;
+      background: transparent;
+      text-align: center;
+      &:hover{
+        background: #fff;
+        color:#000;
+      }
+    }
+}
+
+}
+
+
+/*SECTION ABOUT*/
+
+.section-about{
+    background-image:radial-gradient(silver,ghostwhite);
+    padding:100px 0 100px;
+    .section-about-content{
+        display:grid;
+        grid-template-columns: repeat(2,1fr);
+        gap:30px;
+        @media(max-width:1200px){
+            display:grid;
+            grid-template-columns:1fr;
+            gap:30px
+        }
+        img{
+            width:100%;
+            height:600px;
+            object-fit: cover;
+            border-right:5px solid rgb(21, 20, 20);
+            border-bottom:5px solid rgb(8, 8, 8);
+        }
+
+        #iconImage{
+            position: absolute;
+             right:10px;
+        }
+
+
+        a{
+            text-decoration: none;
+            border:1px solid #464545;
+            padding:15px 20px 15px;
+            width:250px;
+            color: #000;
+            background: transparent;
+            text-align: center;
+            &:hover{
+              background:#444;
+              color:#fff
+            }
+          }
+    }
+
+}
+
+
+/* SECTION SERVICE*/
+
+
+.section-service{
+    background-image:linear-gradient(rgba(0,0,0,0.9),rgba(112, 112, 114,0.9)), url(images/invest2.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    color:#fff;
+    padding:100px 0 100px;
+    h1{
+        text-align: center;
+        text-transform: uppercase;
+        padding:0 0 100px;
+    }
+    .section-service-content{
+      display:grid;
+      grid-template-columns: repeat(3,1fr);
+      gap:40px;
+      @media(max-width:1200px){
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap:40px;
+      }
+        @media(max-width:500px){
+            display:flex;
+            flex-direction: column;
+            justify-content:flex-start;
+            gap:40px;
+        }
+    }
+
+    .section-service-detail{
+        border:1px solid #777;
+        border-top-right-radius:20px;
+        border-bottom-left-radius:20px;
+        padding:15px;
+        cursor: pointer;
+        transition:0.3s;
+      &:hover{
+        background:#888;
+        color:#fff;
+        padding:10px;
+        transform:translateY(-5px)
+      }
+
+        svg{
+        margin:0 0 10px;
+      }
+    }
+
+    }
+
+
+
+/*SECTION CHOOSE*/
+
+.section-choose{
+  background-image:radial-gradient(rgb(233, 233, 250),whitesmoke);
+  padding:100px 0 100px;
+  h2{
+    margin: 0 0 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+ .section-choose-content{
+  display:grid;
+  grid-template-columns: repeat(2,1fr);
+  gap:50px;
+  @media(max-width:1200px){
+    display: grid;
+    grid-template-columns:1fr;
+    gap:20px;
+  }
+  img{
+    height:900px;
+    object-fit: cover;
+    width:100%;
+  }
+
+  .section-text{
+    h3{
+      text-transform: uppercase;
+      font-weight: bold;
+      @media(max-width:500px){
+          font-size:20px;
+      }
+    }
+  }
+ }
+
+ .section-choose-detail{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap:40px;
+   @media(max-width:600px){
+    display: grid;
+    grid-template-columns:1fr;
+    gap:20px
+   }
+
+  .section-des{
+    border:1px solid #c0c0c0;
+    padding:10px;
+    box-shadow:1px 1px 1px 1px #c0c0c0;
+
+  }
+ }
+}
+
+/*SECTION CLIENT*/
+
+.section-client{
+  background:rgb(239, 239, 239);
+  padding:150px 0 100px;
+  h2{
+    margin: 0 0 60px;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+  }
+
+  h6{
+    text-transform: uppercase;
+    color:orange
+
+  }
+  .section-client-content{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:40px;
+    @media(max-width:1000px){
+      display: grid;
+      grid-template-columns:1fr;
+      gap:20px
+     }
+    .section-client-detail{
+      background:silver;
+      text-align: center;
+      padding:15px;
+      border-top-right-radius:25px;
+      border-bottom-left-radius:25px;
+      img{
+        width:80px;
+        height:80px;
+        border-radius:50%;
+      }
+    }
+
+    .section-text{
+      h4{
+        padding:15px 0 5px;
+      }
+    }
+  }
+}
+
+
+/*SECTION TEAM*/
+
+.section-team{
+  background: honeydew;
+  padding:150px 0 100px;
+  h2{
+    margin: 0 0 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+  }
+
+  h6{
+    text-transform: uppercase;
+    color:orange
+
+  }
+  .section-team-content{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:30px;
+    @media(max-width:1000px){
+      display: grid;
+      grid-template-columns:repeat(2,1fr);
+      gap:20px
+     }
+
+     @media(max-width:700px){
+      display: grid;
+      grid-template-columns:1fr;
+      gap:20px
+     }
+    img{
+      width:100%;
+    }
+
+    .section-text{
+      text-align: center;
+      padding:20px;
+    }
+  }
+
+  .section-team-detail{
+    border:1px solid rgb(240, 255, 240);
+    background:silver;
+  }
+}
+
+
+/*SECTION CONNECTION*/
+
+.section-connection{
+  background-image:linear-gradient(transparent,transparent), url(images/invest7.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    padding:100px 0 100px;
+    color: #fff;
+
+    .section-connection-content{
+      text-align: center;
+      h5{
+        text-transform: uppercase;
+        font-weight: bolder;
+        color:#ffa500
+      }
+
+      h2{
+        font-weight: bolder;
+        text-transform: uppercase;
+      }
+
+      p{
+        font-size:22px;
+      }
+
+      a{
+        text-decoration: none;
+        color:#fff;
+        border:1px solid #fff;
+        padding:15px 20px 15px;
+        width:250px;
+        background: transparent;
+        text-align: center;
+        margin:15px 0 0;
+        &:hover{
+          background: #fff;
+          color:#000;
+        }
+      }
+    }
+}
+
+
+/*SECTION PARTNER*/
+
+.section-partner{
+  background-color:aliceblue;
+  padding:100px 0 100px;
+  h2{
+    margin: 0 0 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+  }
+
+  h4{
+    text-transform: uppercase;
+    color:orange
+
+  }
+  .section-partner-content{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:30px;
+    @media(max-width:1000px){
+      display: grid;
+      grid-template-columns:repeat(3,1fr);
+      gap:20px
+     }
+
+     @media(max-width:700px){
+      display: grid;
+      grid-template-columns:repeat(2,1fr);
+      gap:20px
+     }
+
+    img{
+      width:100%;
+      border:1px solid silver;
+      padding:10px 40px 10px;
+      border-radius:25px;
+    }
+  }
+}
+
+/*SECTION FOOTER*/
+
+
+.section-footer{
+  background: #444;
+    color: #fff;
+    padding:100px 0 100px;
+  .section-footer-content{
+     display: grid;
+     grid-template-columns: repeat(4,1fr);
+     gap:30px;
+     @media(max-width:1000px){
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      gap:30px;
+     }
+
+     @media(max-width:700px){
+      display: grid;
+      grid-template-columns:1fr;
+      gap:30px;
+     }
+     img{
+      width:150px
+     }
+
+     h3{
+      font-weight: bolder;
+     }
+  }
+}
