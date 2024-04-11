@@ -4,81 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Sacramento&family=Satisfy&display=swap" rel="stylesheet">
+   
+     <script src="home.js" defer></script>
      <link rel="stylesheet" href="home.css">
     <title>Home page</title>
 </head>
 <body>
-  <div class="header-container">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img src="images/logo-1.png" alt="logo" class="logo"></a>
-          <button class="navbar-toggler icon" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon icon-btn"></span>
-          </button>
-          <div class="collapse navbar-collapse links" id="navbarNavDropdown">
-            <ul class="navbar-nav aria-expanded">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">ACCEUIL</a>
-              </li>
 
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="presentation.html">PRESENTATION</a>
-              </li>
-          
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  SERVICES
-                </a>
-                <ul class="dropdown-menu mega-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <li> <a class="dropdown-item" href="#">Gestion de Sejour</a> </li>
-                     <li><a class="dropdown-item" href="#">Évènementiel</a></li>
-                     <li><a class="dropdown-item" href="#">Projet Foncier</a></li>
-                     <li><a class="dropdown-item" href="#">Immobilier & Bâtiment</a></li>
-                     <li><a class="dropdown-item" href="#"> Épargne & Finance</a></li>
-                     <li><a class="dropdown-item" href="#">Ressources Humaines</a></li>
-                     <li><a class="dropdown-item" href="#">Investissement</a></li>
-                     <li><a class="dropdown-item" href="#">Gestion de Projet</a></li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  ENTREPRISE
-                </a>
-                <ul class="dropdown-menu mega-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <li ><a class="dropdown-item" href="#">Nos Partenaires</a></li>
-                  <li ><a class="dropdown-item" href="#">Proposez vos Services</a></li>
-                  <li ><a class="dropdown-item" href="#">Devenir Partenaire</a></li>
-                  <li ><a class="dropdown-item" href="#">Charte Partenariat</a></li>
-                </ul>
-              </li>
-               
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  RECRUTEMENTS
-                </a>
-                <ul class="dropdown-menu mega-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <li ><a class="dropdown-item" href="#">S'enregistrer</a></li>
-                  <li ><a class="dropdown-item" href="#">Commissionaires</a></li>
-                  <li ><a class="dropdown-item" href="#">CV </a></li>
-                </ul>
-              </li>
-               
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">CONTACT</a>
-              </li>
-            </ul>
-          </div>
-         </div>
-      </nav>
-      
+
+      <header>
+        <div class="container">
+         <div id="header-container">
+            <div class="logo-content">  
+              <img src="images/logoDrindsud.jpg" alt="logo" class="logo">
+            </div>
+            <?xml version="1.0" encoding="utf-8"?>
+             <!-- License: MIT. Made by michaelampr: https://github.com/michaelampr/jam -->
+             <svg id="openBtn" fill="#fff" width="50px" height="50px" viewBox="-5 -7 24 24" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMinYMin" class="jam jam-menu"><path d='M1 0h5a1 1 0 1 1 0 2H1a1 1 0 1 1 0-2zm7 8h5a1 1 0 0 1 0 2H8a1 1 0 1 1 0-2zM1 4h12a1 1 0 0 1 0 2H1a1 1 0 1 1 0-2z' /></svg>
+        </div>
+      <div id ="nav-links">
+        <a href="home.html">Home</a>
+        <a href="presentation.html">Presentation</a>
+        <a href="service.html">Service</a>
+        <a href="entreprise.html">Entreprise</a>
+        <a href="recrutement.html">Recrutement</a>
+        <a href="contact.html">Contact</a>
+
+        <?xml version="1.0" encoding="utf-8"?>
+        <!-- License: PD. Made by moneytree: https://github.com/moneytree/mt-web-icons -->
+        <svg id="closeBtn" fill="#fff" width="30px" height="30px" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg"><path d="M512.481 421.906L850.682 84.621c25.023-24.964 65.545-24.917 90.51.105s24.917 65.545-.105 90.51L603.03 512.377 940.94 850c25.003 24.984 25.017 65.507.033 90.51s-65.507 25.017-90.51.033L512.397 602.764 174.215 940.03c-25.023 24.964-65.545 24.917-90.51-.105s-24.917-65.545.105-90.51l338.038-337.122L84.14 174.872c-25.003-24.984-25.017-65.507-.033-90.51s65.507-25.017 90.51-.033L512.48 421.906z"/>
+        </svg>
+      </div>
+    </div> 
+    </header>
+
+
+
       <!-------HEADER PRESENTATION----------->
       <div class="header-presentation">
-        <div class="container">
+          <div class="container">
           <div class="header-presentation-content">
-            <h2 class="py-3">Diaspora Roots Investment for <br> Sustainable Development  (DRINSUD)</h2>
-             <p class="lead">DRINSUD est une entreprise de facilitation de service et d’expertise locale dédiée à la diaspora camerounaise dispersée à travers le monde. Avec l’aide de nos partenaires dans divers domaines, nous vous offrons des prestations adaptées à vos besoins.</p>
+            <h2 class="py-3 display-3">Diaspora Roots Investment for <br> Sustainable Development  (DRINSUD)</h2>
+             <p class="lead">DRINSUD est une entreprise de facilitation de service et d’expertise locale dédiée à la diaspora camerounaise <br>dispersée à travers le monde. Avec l’aide de nos partenaires dans divers domaines, nous vous offrons des prestations adaptées à vos besoins.</p>
                            
-              <a href="presentation.html" class="lead">En savoir plus</a>
+              <a href="presentation.html" class="lead btn btn-secondary btn-lg">En savoir plus</a>
           </div>
       </div>
   </div>
@@ -88,14 +62,16 @@
 
   <div class="section-about">
     <div class="container">
-      <div class="section-about-content">
-        <div class="section-about-detail">
+      <div class="row g-5">
+        <div class="col-md-6">
           <h2>A PROPOS</h2>
           <P class="lead">DRINSUD est un cabinet d’expertise et d’investissement en matière de codéveloppement, coopération décentralisée, développement local durable et gestion de projets qui vise principalement à fournir des prestations diverses prioritairement, à la diaspora camerounaise mais aussi aux particuliers et organisations qui nous sollicitent. Nous accompagnons l’Etat et les collectivités locales à travers des outils adaptés de mobilisation de la diaspora pour le développement durable. Nous promouvons la prise en compte du rapport migration-développement et la lutte contre l’immigration clandestine à travers l’entrepreneuriat et l’investissement jeune.</P>
           <br>
-          <a href="#" class="lead">En savoir plus</a>
+          <a href="#" class="lead btn btn-secondary btn-lg">En savoir plus</a>
         </div>
+        <div class="col-md-6">
         <img src="images/plan1.jpeg" alt="">
+        </div>
       </div>
     </div>
   </div>
@@ -105,9 +81,10 @@
 
   <div class="section-service">
     <div class="container">
-      <h1>Nos Services</h1>
-      <div class="section-service-content">
-        <div class="section-service-detail">
+      <h1 class="mb-5 text-white">Nos Services</h1>
+      <div class="row g-5">
+        <div class="col-md-4">
+          <div class="section-border">
            <span>
             <?xml version="1.0" encoding="utf-8"?>
             <!-- License: CC Attribution. Made by JetBrains: https://github.com/JetBrains/icons -->
@@ -123,11 +100,13 @@
             </span>
           <div class="section-text">
             <h4>Évènementiel</h4>
-            <p>Voir plus</p>
+            <a href="service.html#event" >En savoir plus</a>
           </div>
         </div>
+      </div>
 
-        <div class="section-service-detail">
+        <div class="col-md-4">
+          <div class="section-border">
            <span>
             <?xml version="1.0" encoding="UTF-8"?>
 
@@ -145,23 +124,27 @@
            </span>
           <div class="section-text">
             <h4>Projet foncier</h4>
-            <p>Voir plus</p>
+            <a href="service.html#foncier">En savoir plus</a>
           </div>
         </div>
+        </div>
 
-        <div class="section-service-detail">
-         <span>
+        <div class="col-md-4">
+          <div class="section-border">
+           <span>
           <?xml version="1.0" encoding="utf-8"?>
           <!-- License: MIT. Made by Neuicons: https://github.com/neuicons/neu -->
           <svg fill="#f5c66d" width="40px" height="40px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10,7H3A1,1,0,0,0,2,8V22h9V8A1,1,0,0,0,10,7ZM6,20H4V18H6Zm0-3H4V15H6Zm0-3H4V12H6Zm0-3H4V9H6Zm3,9H7V18H9Zm0-3H7V15H9Zm0-3H7V12H9Zm0-3H7V9H9ZM21.406,5.736,13,2V22h9V6.65A1,1,0,0,0,21.406,5.736ZM20,18H15V16h5Zm0-4H15V12h5Zm0-4H15V8h5Z"/></svg>
          </span>
           <div class="section-text">
             <h4>Immobilier & Batiment</h4>
-            <p>Voir plus</p>
+            <a href="service.html#bati">En savoir plus</a>
           </div>
         </div>
+        </div>
 
-        <div class="section-service-detail">
+        <div class="col-md-4">
+          <div class="section-border">
            <span>
             <?xml version="1.0" encoding="utf-8"?>
             <!-- License: MIT. Made by scottdejonge: https://github.com/scottdejonge/map-icons -->
@@ -169,23 +152,28 @@
            </span>
           <div class="section-text">
             <h4>Epargne & Finance </h4>
-            <p>Voir plus</p>
+            <a href="service.html#finance">En savoir plus</a>
           </div>
         </div>
+        </div>
 
-        <div class="section-service-detail">
+        <div class="col-md-4">
+          <div class="section-border">
            <span>
             <?xml version="1.0" encoding="utf-8"?>
             <!-- License: MIT. Made by scottdejonge: https://github.com/scottdejonge/map-icons -->
             <svg fill="#f5c66d" width="40px" height="40px" viewBox="0 0 50 50" version="1.2" baseProfile="tiny" xmlns="http://www.w3.org/2000/svg" overflow="inherit"><path d="M6 47.5c0 1.233.768 2 2 2 1.235 0 2-.767 2-2v-18.5h2v18.5c0 1.231.767 2 2 2s2-.767 2-2v-31.5h1v11.314c0 2.395 3.006 2.395 3 0v-12.153c0-2.646-1.906-4.161-5-4.161h-8c-2.82 0-5 1.219-5 4.087v12.913c0 2 3 2 3 0v-12h1v31.5z"/><circle cx="10.875" cy="5.125" r="4.125"/><circle cx="35.875" cy="5.125" r="4.125"/><path d="M45.913 32.5l-5.909-16.237-.034-.167c0-.237.199-.429.447-.429.211 0 .388.141.435.329l4.017 10.504c.267.601 1.365 1 2.087 1 .965 0 1.065-1.895 1.044-2l-4.017-10.107c-.349-2.321-2.693-4.393-5.368-4.393h-5.235c-2.675 0-5.192 2.072-5.542 4.393l-3.837 10.232c-.087.199 0 1.938 1.044 1.938.811 0 1.89-.314 2.086-1.031l3.875-10.564c.062-.166.229-.292.422-.292.246 0 .445.188.445.424l-.027.151-5.758 16.251c-.012.048 0 1.2 0 1.249 0 .346.836 1.25 1.198 1.25h3.714v12.595c0 1.04.916 1.905 2 1.905s2-.866 2-1.905v-13.105c0-.283 2-.274 2 .009v13c0 1.04.917 2 2 2 1.086 0 2-.961 2-2v-12.5h3.869c.362 0 1.044-.904 1.044-1.25 0-.08.029-1.181 0-1.25z"/></svg>
            </span>
-          <div class="section-text">
+          <div class="section-text">    
             <h4>Ressources Humaines</h4>
-            <p>Voir plus</p>
+            <a href="service.html#humaine">En savoir plus</a>
           </div>
         </div>
+       </div>
 
-        <div class="section-service-detail">
+
+        <div class="col-md-4">
+          <div class="section-border">
            <span>
             <?xml version="1.0" encoding="utf-8"?>
             <!-- License: CC Attribution. Made by JetBrains: https://github.com/JetBrains/icons -->
@@ -201,11 +189,15 @@
            </span>
           <div class="section-text">
             <h4>Investissement</h4>
-            <p>Voir plus</p>
+            <a href="service.html#invest">En savoir plus</a>
+
           </div>
         </div>
+        </div>
 
-        <div class="section-service-detail">
+
+        <div class="col-md-4">
+          <div class="section-border">
            <span>
             <?xml version="1.0" encoding="utf-8"?>
             <!-- License: CC Attribution. Made by JetBrains: https://github.com/JetBrains/icons -->
@@ -221,48 +213,98 @@
            </span>
           <div class="section-text">
             <h4>Gestion de projets</h4>
-            <p>Voir plus</p>
+            <a href="service.html#gestion">En savoir plus</a>
           </div>
         </div> 
       </div>
+
+
+      <div class="col-md-4">
+        <div class="section-border">
+          <?xml version="1.0" encoding="utf-8"?>
+          <!-- License: MIT. Made by vmware: https://github.com/vmware/clarity-assets -->
+          <svg fill="#f5c66d" width="40px" height="40px" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
+          
+          <title>on_holiday_solid</title>
+          
+          <g id="f33df626-4236-44cb-9ea7-70e95ec9c915" data-name="Layer 3">
+          
+          <path d="M18,2.5c-8.82,0-16,6.28-16,14s7.18,14,16,14a17.91,17.91,0,0,0,4.88-.68l5.53,3.52a1,1,0,0,0,1.38-.3A1,1,0,0,0,30,32.5V25.77a13,13,0,0,0,4-9.27C34,8.78,26.82,2.5,18,2.5ZM29.84,18H21.51a.42.42,0,0,0-.3.13l-5.3,5.64a.39.39,0,0,1-.29.13H13.19a.41.41,0,0,1-.37-.58l2.47-5.32H7.46a.42.42,0,0,1-.36-.22l-2.7-5H6.24a.53.53,0,0,1,.39.18l1.56,1.69a.38.38,0,0,0,.33.14l6.18-.38-2-3.55h2.89a.47.47,0,0,1,.31.11L19.63,14l6.69-.35a2.44,2.44,0,0,1,1.81.63l2.47,2.23A.92.92,0,0,1,29.84,18Z"/>
+          
+          </g>
+          
+          </svg>
+         </span>
+        <div class="section-text">
+          <h4>Gestion de sejour</h4>
+          <a href="service.html#sejour">En savoir plus</a>
+
+        </div>
+      </div>
+      </div>
+
+
+      <div class="col-md-4">
+        <div class="section-border">
+         <span>
+          <?xml version="1.0" ?>
+          <!-- License: CC Attribution. Made by Deemak Daksina: https://dribbble.com/deemakdaksina -->
+          <svg fill="#f5c66d" width="40px" height="40px" viewBox="0 0 96 96" xmlns="http://www.w3.org/2000/svg"><title/><path d="M93.3047.9934A6.0613,6.0613,0,0,0,87.6328.4777l-25.63,10.9856L36.3633.4777c.04.022.0139.1641.0447.2044A5.951,5.951,0,0,0,31.6289.4777l-27.9961,12A6.01,6.01,0,0,0,0,17.9973v72a6.0087,6.0087,0,0,0,6,6,6.1926,6.1926,0,0,0,2.3672-.48l25.63-10.9856,25.64,10.9856a6.1926,6.1926,0,0,0,2.3672.48,5.9893,5.9893,0,0,0,2.3408-.7053c.0052.0476.0264.2248.0264.2248l27.9961-12A6.01,6.01,0,0,0,96,77.9973v-72A5.9705,5.9705,0,0,0,93.3047.9934ZM12,21.9582l15.9961-6.8555V74.0363L12,80.8918ZM39.9961,15.091l16.0078,6.8672V80.9035L39.9961,74.0363ZM84,74.0363,68.0039,80.8918V21.9582L84,15.1027Z"/></svg>
+         </span>
+        <div class="section-text">
+          <h4>Expertise locale</h4>
+          <a href="service.html#locale">En savoir plus</a>
+
+        </div>
+      </div>
+      </div>
+
+
     </div>
    </div>
-
+  </div>
 
    <!-----------SECTION CHOOSE--------------->
 
    <div class="section-choose">
     <div class="container">
-      <h2>Pourquoi nous choisir?</h2>
-      <div class="section-choose-content">
-          <img src="images/invest4.jpg" alt="">
-          <div class="section-text">
+      <h2 class="mb-5">Pourquoi nous choisir?</h2>
+      <div class="choose-container">
+        <div class="choose-detail">
+          <img src="images/business-partners.jpg" alt="">
+         </div>
+
+          <div class="choose-detail">
             <h3>Explorez l'Excellence avec Nous : Votre Guichet Unique pour une Gestion Sans Compromis !</h3>
               <p class="lead">Découvrez la différence avec notre plateforme intégrée qui excelle dans la gestion de séjours, les finances, les bâtiments, l'épargne et les projets, Ceci dit, les raisons pourvant vous amener a nous faire confiance sont les suivantes:</p>
              
-            <div class="section-choose-detail">
-                <div class="section-des">
+            <div class="row g-4 mt-3">
+                <div class="col-md-12 col-lg-6">
+                 <div class="choose">
                   <h4>Innovation</h4>
                   <p>Nous prônons au sein de notre enterprise l’esprit d’innovation. Ainsi, l’entreprise reste à l’ecoute de ses employés, partenaires et clients pour ameliorer ses services. C’est un élement qui fait la marque de notre entreprise.
                   </p>
                 </div>
-              
-              <div class="section-des">
+            </div>
+              <div class="col-md-12 col-lg-6">
+                <div class="choose">
                 <h4>Professionalisme</h4>
                 <p>
                   Nos services sont guidés par le professionalisme de notre équipe pour assurer un service de qualité à nos clients. Celase traduit dans la rigueur avec laquelle nous choissisons nos partenaires, commissionnaires et prestataires.
                 </p>
-
+              </div>
               </div>
             
-             <div class="section-des">
+             <div class="col-md-12 col-lg-6">
+              <div class="choose">
               <h4>Transparence</h4>
                 <p>
                   Transparence: Notre collaboration avec nos clients et partenaires est caracterisée par la transparence des transactions et services afin d’etablir la confiance et une relation durable avec ces derniers.
                 </p>
              </div>
-          
-          <div class="section-des">
+           </div>
+          <div class="col-md-12 col-lg-6">
+            <div class="choose">
             <h4>La confiance</h4>
              <p>
               La confiance: La finalité principale de notre action en tant qu’entreprise de facilitation et d’expertise locale est d’etablir une relation de confiance entre collaborateurs, nos partenaires et les membres de la diaspora.
@@ -273,101 +315,181 @@
       </div>
     </div>
    </div>
+  </div>
 
 
-   <!-----------SECTION CLIENTS--------------------->
 
-   <div class="section-client">
-    <div class="container">
-      <h6>Temoignages</h6>
-      <h2>Retours Clients</h2>
-      <div class="section-client-content">
-        <div class="section-client-detail">
-          <img src="images/po.jpg" alt="">
-          <div class="section-text">
-            <h4>Johanna Kamga-Canada</h4>
-            <p>"Une expérience exceptionnelle avec cette start-up multiservices(Drinsud) ! Leur gestion de séjour a simplifié ma vie au quotidien. Des solutions efficaces et une équipe dévouée font de cette entreprise mon choix numéro un."</p>
-          </div>
-        </div>
 
-        <div class="section-client-detail">
-          <img src="images/po2.jpg" alt="">
-          <div class="section-text">
-            <h4>Mofor Nick-Luxembourg</h4>
-            <p>"Enfin une start-up qui comprend vraiment mes besoins financiers ! Leur approche intelligente a optimisé mes finances de manière significative. Une équipe professionnelle et proactive que je recommande vivement."</p>
-          </div>
-        </div>
+      <!-------------CLIENTS REVIEW------------------>
 
-        <div class="section-client-detail">
-          <img src="images/po3.jpg" alt="">
-          <div class="section-text">
-            <h4>Pamela Bella-France</h4>
-            <p>"J'ai confié la gestion de mes projets immobiliers à cette start-up, et le résultat est tout simplement remarquable. Des bâtiments de qualité et un suivi irréprochable. Une collaboration très satisfaisante !"</p>
-          </div>
-        </div>
+      <div class="about-review">
+        <div class="container">
+            <h5 class="text-warning">Retour Clients</h5>
+            <h3 class="mb-5">TEMOIGNAGES</h3>
+  
+            <div class="about-review-container">
+                <!-------first client---------->
+                <div class="about-review-detail">
+                  <div class="d-flex">
+                    <img src="images/po.jpg" alt="">
+                    <div class="about-name ms-3">
+                        <h2>Johanna Kamga-Canada</h2>
+                         <p>PHARCIENNE</p>
+                    </div>
+                </div>
+                <span>
+                    <?xml version="1.0" encoding="utf-8"?>
+                    <!-- License: PD. Made by stephenhutchings: https://github.com/stephenhutchings/microns -->
+                    <svg fill="orange" width="20px" height="20px" viewBox="0 -19 550 550" xmlns="http://www.w3.org/2000/svg" ><title>star</title><path d="M181 286L64 188 218 176 275 30 333 176 486 188 369 286 407 436 275 354 144 440 181 286Z" /></svg>
+                </span>
+                <span>
+                    <?xml version="1.0" encoding="utf-8"?>
+                    <!-- License: PD. Made by stephenhutchings: https://github.com/stephenhutchings/microns -->
+                    <svg fill="orange" width="20px" height="20px" viewBox="0 -19 550 550" xmlns="http://www.w3.org/2000/svg" ><title>star</title><path d="M181 286L64 188 218 176 275 30 333 176 486 188 369 286 407 436 275 354 144 440 181 286Z" /></svg>
+                </span>
+                <span>
+                    <?xml version="1.0" encoding="utf-8"?>
+                    <!-- License: PD. Made by stephenhutchings: https://github.com/stephenhutchings/microns -->
+                    <svg fill="orange" width="20px" height="20px" viewBox="0 -19 550 550" xmlns="http://www.w3.org/2000/svg" ><title>star</title><path d="M181 286L64 188 218 176 275 30 333 176 486 188 369 286 407 436 275 354 144 440 181 286Z" /></svg>
+                </span>
+                <span>
+                    <?xml version="1.0" encoding="utf-8"?>
+                    <!-- License: PD. Made by stephenhutchings: https://github.com/stephenhutchings/microns -->
+                    <svg fill="orange" width="20px" height="20px" viewBox="0 -19 550 550" xmlns="http://www.w3.org/2000/svg" ><title>star</title><path d="M181 286L64 188 218 176 275 30 333 176 486 188 369 286 407 436 275 354 144 440 181 286Z" /></svg>
+                </span>
+                <div class="about-text">
+                  <p>"Une expérience exceptionnelle avec cette start-up multiservices(Drinsud) ! Leur gestion de séjour a simplifié ma vie au quotidien."</p>
+                </div>
+          </div>  
 
-        <div class="section-client-detail">
-          <img src="images/po4.jpg" alt="">
-          <div class="section-text">
-            <h4>Marc Markoni-Allemangne</h4>
-            <p>"Grâce à cette start-up, j'ai pu concrétiser mes projets tout en épargnant de manière intelligente. Une approche personnalisée et des conseils judicieux ont fait toute la différence. Une expérience client exceptionnelle !"</p>
-          </div>
-        </div>
+                <!-------second client---------->
+            <div class="about-review-detail" id="move">
+                <div class="d-flex">
+                     <img src="images/po2.jpg" alt="">
+                    <div class="about-name ms-3">
+                        <h2>Mofor Nick-Luxembourg</h2>
+                         <p>DOCTEUR</p>
+                    </div>
+                </div>
+                <span>
+                    <?xml version="1.0" encoding="utf-8"?>
+                    <!-- License: PD. Made by stephenhutchings: https://github.com/stephenhutchings/microns -->
+                    <svg fill="orange" width="20px" height="20px" viewBox="0 -19 550 550" xmlns="http://www.w3.org/2000/svg" ><title>star</title><path d="M181 286L64 188 218 176 275 30 333 176 486 188 369 286 407 436 275 354 144 440 181 286Z" /></svg>
+                </span>
+                <span>
+                    <?xml version="1.0" encoding="utf-8"?>
+                    <!-- License: PD. Made by stephenhutchings: https://github.com/stephenhutchings/microns -->
+                    <svg fill="orange" width="20px" height="20px" viewBox="0 -19 550 550" xmlns="http://www.w3.org/2000/svg" ><title>star</title><path d="M181 286L64 188 218 176 275 30 333 176 486 188 369 286 407 436 275 354 144 440 181 286Z" /></svg>
+                </span>
+                <span>
+                    <?xml version="1.0" encoding="utf-8"?>
+                    <!-- License: PD. Made by stephenhutchings: https://github.com/stephenhutchings/microns -->
+                    <svg fill="orange" width="20px" height="20px" viewBox="0 -19 550 550" xmlns="http://www.w3.org/2000/svg" ><title>star</title><path d="M181 286L64 188 218 176 275 30 333 176 486 188 369 286 407 436 275 354 144 440 181 286Z" /></svg>
+                </span>
+                <span>
+                    <?xml version="1.0" encoding="utf-8"?>
+                    <!-- License: PD. Made by stephenhutchings: https://github.com/stephenhutchings/microns -->
+                    <svg fill="orange" width="20px" height="20px" viewBox="0 -19 550 550" xmlns="http://www.w3.org/2000/svg" ><title>star</title><path d="M181 286L64 188 218 176 275 30 333 176 486 188 369 286 407 436 275 354 144 440 181 286Z" /></svg>
+                </span>
+                <div class="about-text">
+                  <p>"Enfin une start-up qui comprend vraiment mes besoins financiers ! Leur approche intelligente a optimisé mes finances de manière significative."</p>
+                </div>
+            </div>
+            
+               <!------------third client---------------->
+            <div class="about-review-detail" id="move1">
+                <div class="d-flex">
+                     <img src="images/po3.jpg" alt="">
+                    <div class="about-name ms-3">
+                        <h2>Pamela Bella-France</h2>
+                         <p>NUTRIONISTE</p>
+                    </div>
+                </div>
+                <span>
+                    <?xml version="1.0" encoding="utf-8"?>
+                    <!-- License: PD. Made by stephenhutchings: https://github.com/stephenhutchings/microns -->
+                    <svg fill="orange" width="20px" height="20px" viewBox="0 -19 550 550" xmlns="http://www.w3.org/2000/svg" ><title>star</title><path d="M181 286L64 188 218 176 275 30 333 176 486 188 369 286 407 436 275 354 144 440 181 286Z" /></svg>
+                </span>
+                <span>
+                    <?xml version="1.0" encoding="utf-8"?>
+                    <!-- License: PD. Made by stephenhutchings: https://github.com/stephenhutchings/microns -->
+                    <svg fill="orange" width="20px" height="20px" viewBox="0 -19 550 550" xmlns="http://www.w3.org/2000/svg" ><title>star</title><path d="M181 286L64 188 218 176 275 30 333 176 486 188 369 286 407 436 275 354 144 440 181 286Z" /></svg>
+                </span>
+                <span>
+                    <?xml version="1.0" encoding="utf-8"?>
+                    <!-- License: PD. Made by stephenhutchings: https://github.com/stephenhutchings/microns -->
+                    <svg fill="orange" width="20px" height="20px" viewBox="0 -19 550 550" xmlns="http://www.w3.org/2000/svg" ><title>star</title><path d="M181 286L64 188 218 176 275 30 333 176 486 188 369 286 407 436 275 354 144 440 181 286Z" /></svg>
+                </span>
+                <span>
+                    <?xml version="1.0" encoding="utf-8"?>
+                    <!-- License: PD. Made by stephenhutchings: https://github.com/stephenhutchings/microns -->
+                    <svg fill="orange" width="20px" height="20px" viewBox="0 -19 550 550" xmlns="http://www.w3.org/2000/svg" ><title>star</title><path d="M181 286L64 188 218 176 275 30 333 176 486 188 369 286 407 436 275 354 144 440 181 286Z" /></svg>
+                </span>
+                <div class="about-text">
+                  <p>"J'ai confié la gestion de mes projets immobiliers à cette start-up, et le résultat est tout simplement remarquable.!"</p>
+                </div>
+            </div>
+                <!---------fourth client------------>
+            <div class="about-review-detail" id="move2">
+                <div class="d-flex">
+                    <img src="images/po4.jpg" alt="">
+                    <div class="about-name ms-3">
+                        <h2>Marck Markony-Autriche</h2>
+                         <p>BANQUIER</p>
+                    </div>
+                </div>
+                <span>
+                    <?xml version="1.0" encoding="utf-8"?>
+                    <!-- License: PD. Made by stephenhutchings: https://github.com/stephenhutchings/microns -->
+                    <svg fill="orange" width="20px" height="20px" viewBox="0 -19 550 550" xmlns="http://www.w3.org/2000/svg" ><title>star</title><path d="M181 286L64 188 218 176 275 30 333 176 486 188 369 286 407 436 275 354 144 440 181 286Z" /></svg>
+                </span>
+                <span>
+                    <?xml version="1.0" encoding="utf-8"?>
+                    <!-- License: PD. Made by stephenhutchings: https://github.com/stephenhutchings/microns -->
+                    <svg fill="orange" width="20px" height="20px" viewBox="0 -19 550 550" xmlns="http://www.w3.org/2000/svg" ><title>star</title><path d="M181 286L64 188 218 176 275 30 333 176 486 188 369 286 407 436 275 354 144 440 181 286Z" /></svg>
+                </span>
+                <span>
+                    <?xml version="1.0" encoding="utf-8"?>
+                    <!-- License: PD. Made by stephenhutchings: https://github.com/stephenhutchings/microns -->
+                    <svg fill="orange" width="20px" height="20px" viewBox="0 -19 550 550" xmlns="http://www.w3.org/2000/svg" ><title>star</title><path d="M181 286L64 188 218 176 275 30 333 176 486 188 369 286 407 436 275 354 144 440 181 286Z" /></svg>
+                </span>
+                <span>
+                    <?xml version="1.0" encoding="utf-8"?>
+                    <!-- License: PD. Made by stephenhutchings: https://github.com/stephenhutchings/microns -->
+                    <svg fill="orange" width="20px" height="20px" viewBox="0 -19 550 550" xmlns="http://www.w3.org/2000/svg" ><title>star</title><path d="M181 286L64 188 218 176 275 30 333 176 486 188 369 286 407 436 275 354 144 440 181 286Z" /></svg>
+                </span>
+                <div class="about-text">
+                  <p>"Grâce à cette start-up, j'ai pu concrétiser mes projets tout en épargnant de manière intelligente.!"</p>
+                </div>
+            </div>
+         </div>
       </div>
-    </div>
-   </div>
-    
+    </div> 
+
+ 
    <!----------SECTION TEAM----------->
 
-   <div class="section-team">
+   <div class="section-team"  id="team">
     <div class="container">
-      <h6>Membre de l'Équipe</h6>
+      <h6 class="text-warning">Membre de l'Équipe</h6>
       <h2>Équipe d'Experts</h2>
-      <div class="section-team-content">
-        <div class="section-team-detail">
-          <img src="images/te.jpg" alt="">
-          <div class="section-text">
-            <h4>Tamara Leonie</h4>
-            <p>Founder,CEO</p>
-          </div>
-        </div>
-
-        <div class="section-team-detail">
-          <img src="images/te1.jpg" alt="">
-          <div class="section-text">
-            <h4>Silvinus Marcus</h4>
-            <p>Manager Marketer</p>
-          </div>
-        </div>
-
-        <div class="section-team-detail">
-          <img src="images/te2.jpg" alt="">
-          <div class="section-text">
-            <h4>Alvira Tamkoua</h4>
-            <p>Secretary</p>
-          </div>
-        </div>
-
-        <div class="section-team-detail">
-          <img src="images/t3.jpg" alt="">
-          <div class="section-text">
-            <h4>Bouba Bello</h4>
-            <p>Manager Seller</p>
-          </div>
-        </div>
-      </div>
+      <!----------TEAM CONTENT----->
+  
+      <div class="team-content"></div>
     </div>
-   </div>
+  </div>
+ 
 
+  
    <!-------SECTION CONNECTION---------->
    <div class="section-connection">
     <div class="container">
       <div class="section-connection-content">
-        <h5>Envie de travailler avec nous ?</h5>
+        <h5 class="text-warning">Envie de travailler avec nous ?</h5>
         <h2>Rejoignez notre Équipe : Explorez des Opportunités Passionnantes!</h2>
         <p>Vous recherchez un environnement stimulant, propice à l'épanouissement professionnel ? Chez nous, chaque membre est un pilier essentiel de notre succès. Découvrez des défis inspirants, une culture collaborative et des opportunités de croissance. Ensemble, bâtissons l'avenir et donnez vie à vos ambitions."</p>
         <br>
-        <a href="">Contactez-nous</a>
+        <a href="contact.html" class="btn btn-warning btn-lg text-white">Contactez-nous</a>
       </div>
     </div>
    </div>
@@ -376,62 +498,110 @@
 
    <div class="section-partner">
     <div class="container">
-      <h4>Fait Confiance par de plus 200+</h4>
+      <h4 class="text-warning">Fait Confiance par de plus 200+</h4>
       <h2>Nos partenaires</h2>
-      <div class="section-partner-content">
-        <img src="images/client-1.png" alt="">
-        <img src="images/client-2.png" alt="">
-        <img src="images/client-3.png" alt="">
-        <img src="images/client-4.png" alt="">
-        <img src="images/client-5.png" alt="">
-        <img src="images/client-6.png" alt="">
-        <img src="images/client-7.png" alt="">
-        <img src="images/client-8.png" alt="">
+      <div class="row g-5">
+        <div class="col-md-6 col-lg-3">
+           <img src="images/client-1.png" alt="">
+        </div>
+        <div class="col-md-6 col-lg-3">
+           <img src="images/client-2.png" alt="">
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <img src="images/client-3.png" alt="">
+        </div>
+        <div class="col-md-6 col-lg-3">
+           <img src="images/client-4.png" alt="">
+        </div>
+        <div class="col-md-6 col-lg-3">
+           <img src="images/client-5.png" alt="">
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <img src="images/client-6.png" alt="">
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <img src="images/client-7.png" alt="">
+        </div>
+        <div class="col-md-6 col-lg-3">
+           <img src="images/client-8.png" alt="">
+        </div>
       </div>
     </div>
    </div>
 
+
+
+
+
+
    <!--------SECTION FOOTER----------->
   <div class="section-footer">
     <div class="container">
-      <div class="section-footer-content">
-        <div class="footer-detail">
+      <div class="row">
+        <div class="col-md-6 col-lg-3">
           <h3>SERVICES</h3>
-          <P>Gestion de sejour</P>
-          <p>Evenementiel</p>
-          <p>Immobilier & Batiments</p>
-          <p>Projet foncier</p>
-          <p>Ressources humaines</p>
-          <p>Epargne & finances</p>
-          <p>Gestion de projets</p>
-          <p></p>
-        </div>
+          <p><a href="service.html#invest">Investiments</a></p>
+          <p><a href="service.html#event">Évènementiel</a></p>
+          <p><a href="service.html#foncier">Immobilier & Batiments</a></p>
+          <p><a href="service.html#projet">Pojets foncier</a></p>
+          <p><a href="service.html#humaine">Ressources Humaines</a></p>
+          <p><a href="service.html#finance">Epargne & finances</a></p>
+          <p><a href="service.html#projet">Gestion de projets</a></p>
+          <p><a href="service.html#sejour">Gestion de sejours</a></p>
+          <p><a href="service.html#locale">Expertise locale</a></p>
 
-        <div class="footer-detail">
+        </div>
+        <div class="col-md-6 col-lg-3">
           <h3>ENTREPRISE</h3>
-          <P>Nos partenaires</P>
-          <p>Devenir partenaire</p>
-          <p>Charte partenariat</p>
-          <p>Proposez vos services</p>
+          <p><a href="entreprise.html">Nos partenaires</a></p>
+          <p><a href="entreprise.html">Devenir partenaire</a></p>
+          <p><a href="entreprise.html">Charte partenariat</a></p>
+          <p><a href="entreprise.html">Proposez service</a></p>
         </div>
-
-
-        <div class="footer-detail">
+        <div class="col-md-6 col-lg-3">
           <h3>RECRUTEMENT</h3>
-          <P>S'enregistrer</P>
-          <p>Commission</p>
-          <p>CV</p>
+          <p><a href="recrutement.html">S'enregistrer</a></p>
+          <p><a href="recrutement.html">Commission</a></p>
         </div>
-
-        <div class="footer-detail">
+        <div class="col-md-6 col-lg-3">
           <h3>CONTACT</h3>
-          <P>Tel:+237-699-459-768</P>
-          <p>Email: drinsud@gmail.com</p>
-          <p>Adresse455,Rue Martin Paul,Yaounde-Cameroon</p>
+          <div class="d-flex">
+            <p>
+              <?xml version="1.0" encoding="utf-8"?>
+              <!-- License: CC Attribution. Made by Robin Kylander: https://dribbble.com/kylander -->
+              <svg fill="orange" width="20px" height="20px" viewBox="-3 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                <g id="Group_31" data-name="Group 31" transform="translate(-241.002 -321.05)">
+                  <path id="Path_296" data-name="Path 296" d="M267,349.05v-24a4,4,0,0,0-4-4H245a4,4,0,0,0-4,4v24a4,4,0,0,0,4,4h18A4,4,0,0,0,267,349.05Zm-22,0v-24h18v24Z"/>
+                  <rect id="Rectangle_6" data-name="Rectangle 6" width="10" height="12" transform="translate(249.002 329.05)"/>
+                  <rect id="Rectangle_7" data-name="Rectangle 7" width="18" height="4" transform="translate(245.002 345.05)"/>
+                </g>
+              </svg>
+            </p>
+          <P class="ms-2">+237-699-37-7664</P>
+        </div>
+          <div class="d-flex">
+            <p>
+              <?xml version="1.0" encoding="utf-8"?>
+              <!-- License: PD. Made by stephenhutchings: https://github.com/stephenhutchings/microns -->
+              <svg fill="orange" width="20px" height="20px" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" ><title>mail</title><path d="M64 128Q64 113 73 105 81 96 96 96L416 96Q431 96 440 105 448 113 448 128L448 144 256 272 64 144 64 128ZM256 328L448 200 448 384Q448 416 416 416L96 416Q64 416 64 384L64 200 256 328Z" /></svg>
+            </p>
+          <p class="ms-2">lepaneliste@gmail.com</p>
+          </div>
+          <div class="d-flex">
+            <p>
+              <?xml version="1.0" encoding="utf-8"?>
+               <!-- License: PD. Made by stephenhutchings: https://github.com/stephenhutchings/typicons.font -->
+             <svg fill="orange" width="20px" height="20px" viewBox="0 0 24 24" version="1.2" baseProfile="tiny" xmlns="http://www.w3.org/2000/svg"><path d="M17.657 5.304c-3.124-3.073-8.189-3.073-11.313 0-3.124 3.074-3.124 8.057 0 11.13l5.656 5.565 5.657-5.565c3.124-3.073 3.124-8.056 0-11.13zm-5.657 8.195c-.668 0-1.295-.26-1.768-.732-.975-.975-.975-2.561 0-3.536.472-.472 1.1-.732 1.768-.732s1.296.26 1.768.732c.975.975.975 2.562 0 3.536-.472.472-1.1.732-1.768.732z"/></svg>
+            </p>
+          <p class="ms-2">455 Rue Martin ,Yaounde-CMR</p>
+        </div>
         </div>
       </div>
+      <p class="text-center text-warning mt-5">&copy;Copyright , 2024 DASCOM Ltd</p>
     </div>
   </div> 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+   <script src="menbers.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
 </body>
-</html>
+</html> 
